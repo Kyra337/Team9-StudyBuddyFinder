@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
          <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Project Title</title>
+        <title>Study Buddy Finder</title>
    	   <link rel="stylesheet" href="styles.css" type=”text/css”/>
         <link rel="icon" href="" type="image/x-icon" />
         <script type="text/javascript" src="script.js"></script>
@@ -11,11 +11,18 @@
 
 
     <body>
-        <!-- Add HTML markup elements for your web site below -->
-        <h1>Welcome to Project Title!</h1>
-        <p>Here are some more details.</p>
+        <form method="post">
+            <div class="logo">
+                <img src="images/logo.png" alt="Avatar" class="avatar">
+            </div>
+            <div class="container">
+                <label for="name"><b>Name</b></label><br>
+                <input type="text" placeholder="John Doe" name="name" required><br>
+                <label for="email"><b>Email</b></label><br>
+                <input type="text" placeholder="john@university.edu" name="email" required><br>
+                <label for="password"><b>Password</b></label><br>
+                <input type="password" placeholder="******" name="password" required><br>
+                <button type="submit">Login</button>
+            </div>
     </body>
-    <footer>
-        <p>Made by: WIC &hearts;</p>
-    </footer>
 </html>
