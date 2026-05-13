@@ -4,25 +4,35 @@
         <meta charset="UTF-8">
          <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Study Buddy Finder</title>
-   	   <link rel="stylesheet" href="styles.css" type=”text/css”/>
+        <link rel="stylesheet" href="styles.css" type="text/css" />
         <link rel="icon" href="" type="image/x-icon" />
         <script type="text/javascript" src="script.js"></script>
     </head>
 
 
     <body>
-        <form method="post">
-            <div class="logo">
-                <img src="images/logo.png" alt="Avatar" class="avatar">
-            </div>
-            <div class="container">
-                <label for="name"><b>Name</b></label><br>
-                <input type="text" placeholder="John Doe" name="name" required><br>
-                <label for="email"><b>Email</b></label><br>
-                <input type="text" placeholder="john@university.edu" name="email" required><br>
-                <label for="password"><b>Password</b></label><br>
-                <input type="password" placeholder="******" name="password" required><br>
-                <button type="submit">Login</button>
-            </div>
+        <main class="app-screen">
+            <form class="login-card" method="post">
+                <div class="logo">
+                    <img src="images/logo.png" alt="Avatar" class="avatar">
+                </div>
+
+                <h1>Study Buddy 📚</h1>
+                <p class="tagline">Find your perfect study partner ✨</p>
+
+                <div class="container">
+                    <label for="name"><b>Full Name</b></label>
+                    <input type="text" id="name" placeholder="John Doe" name="name" required>
+
+                    <label for="email"><b>Email</b></label>
+                    <input type="email" id="email" placeholder="john@university.edu" name="email" required>
+
+                    <label for="password"><b>Password</b></label>
+                    <input type="password" id="password" placeholder="••••••••" name="password" required>
+
+                    <button type="submit">Continue 🚀</button>
+                </div>
+            </form>
+        </main>
     </body>
 </html>
