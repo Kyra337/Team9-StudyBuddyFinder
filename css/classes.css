@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #d8fff5, #c8e9ff);
+}
+
+.app-screen {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.class-card {
+    width: 100%;
+    max-width: 520px;
+    padding: 36px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 16px 32px rgba(68, 90, 120, 0.16);
+}
+
+h1 {
+    font-size: 30px;
+    color: #111827;
+    margin-bottom: 8px;
+}
+
+p {
+    color: #6b7280;
+    font-size: 15px;
+    margin-bottom: 26px;
+}
+
+input {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-bottom: 12px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.16);
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    background-color: #3b82f6;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 14px;
+}
+
+button:hover {
+    background-color: #2563eb;
+}
+
+#classList {
+    list-style: none;
+    margin: 10px 0 20px;
+}
+
+#classList li {
+    background-color: #f0f7ff;
+    color: #1f2937;
+    padding: 12px 14px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
